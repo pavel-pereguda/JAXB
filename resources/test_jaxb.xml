@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+  ~ Copyright (c) 2019 FORS Development Center
+  ~ Trifonovskiy tup. 3, Moscow, 129272, Russian Federation
+  ~ All rights reserved.
+  ~
+  ~ This software is the confidential and proprietary information of
+  ~ FORS Development Center ("Confidential Information"). You shall not
+  ~ disclose such Confidential Information and shall use it only in
+  ~ accordance with the terms of the license agreement you entered into
+  ~ with FORS.
+  -->
+
+<RootElement>
+    <Elements>
+        <ParagraphElement isVirtual="true">
+            <Attributes>
+                <Indent>
+                    <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:int">1000</Value>
+                </Indent>
+                <Alignment>
+                    <Value>CENTER</Value>
+                </Alignment>
+            </Attributes>
+            <Elements>
+                <TextElement>
+                    <Attributes>
+                        <Bold>
+                            <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:boolean">true</Value>
+                        </Bold>
+                        <Italic>
+                            <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:boolean">true</Value>
+                        </Italic>
+                        <Color>
+                            <Value>rgba(255,0,0,255)</Value>
+                        </Color>
+                        <FontName>
+                            <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:string">Arial</Value>
+                        </FontName>
+                        <FontSize>
+                            <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:int">14</Value>
+                        </FontSize>
+                    </Attributes>
+                    <Text>test!!!</Text>
+                </TextElement>
+            </Elements>
+        </ParagraphElement>
+    </Elements>
+</RootElement>
